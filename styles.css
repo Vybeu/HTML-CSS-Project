@@ -7,3 +7,19 @@
     position: sticky;
     bottom: 0;
 }
+
+.image-container img {
+    border: #000000 solid;
+    border-radius: 5px;
+}
+
+.my-container {
+    padding-top: 5rem;
+
+}
+
+.my-profile:hover {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
