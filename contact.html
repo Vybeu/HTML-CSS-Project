@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vibeu's Profile</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+</head>
+
+<!-- To do: add popup that says that every button goes somewhere 
+duplicate cards and link elsewhere -->
+
+<body>
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-lg-start">
+                <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <img class="bi me-2" width="40" height="32" aria-label="Vibeu" src="./assets/vibeuLogo.png" />
+                </a>
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li>
+                        <a href="about.html" class="nav-link px-2 text-secondary">About</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="nav-link px-2 text-secondary">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav-link px-2 text-secondary">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div id="main-container">
+        <div class="card" id="my-contact">
+            <div class="card-header">
+                Connect
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Contact Me!</h5>
+                <p class="card-text">Please click <a href="mailto:chandlerhigs@gmail.com">here</a> to send me an email!
+                </p>
+                <a href="index.html" class="btn btn-primary">Home</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top text-bg-dark"
+        id="myFooter">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <img class="bi" width="30" height="24" src="assets/vibeuLogo.png" />
+                <span class="mb-3 mb-md-0 text-muted">Created Using
+                    <a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/"
+                        class="text-muted">Bootstrap 5</a></span>
+            </a>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex" id="socials">
+            <li class="ms-3">
+                <a class="text-muted" href="https://twitter.com/">
+                    <img src="./node_modules/bootstrap-icons/icons/twitter.svg" />
+                </a>
+            </li>
+            <li class="ms-3">
+                <a class="text-muted" href="https://www.linkedin.com/">
+                    <img src="./node_modules/bootstrap-icons/icons/linkedin.svg" />
+                </a>
+            </li>
+            <li class="ms-3">
+                <a class="text-muted" href="https://github.com/Vybeu">
+                    <img src="./node_modules/bootstrap-icons/icons/github.svg" />
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
