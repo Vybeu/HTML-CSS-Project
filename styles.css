@@ -18,8 +18,14 @@
 
 }
 
-.my-profile:hover {
-    -webkit-filter: blur(4px);
-    filter: blur(4px);
+#my-card {
+    padding-top: 2rem;
 }
 
+#my-contact {
+    padding-top: 2rem;
+}
+
+#main-container {
+    padding-bottom: 22rem;
+}
